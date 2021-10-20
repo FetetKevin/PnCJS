@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Antic Didone' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/67b1fb20cf.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/favicon.jpg"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Peace'n'code</title>
+</head>
+<body>
+
+    <section>
+
+        <div class="header">
+            <img id="logo" src="assets/img/favicon2.jpg" alt="logo">
+            <h1>Peace'n'code</h1>
+            <label id="label" for="navmenu"><span class="icon-menu"><i class="fas fa-hamburger"></i></span></label>
+        </div>
+        
+        <input type="checkbox" id="navmenu">
+        <nav>
+          <div class="navbar">
+              <ul>
+                  <li><a href="index.html">Accueil</a></li>
+                  <li><a href="students.html">Eleves</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+        </nav>
+  
+    </section>
+
+    <section>
+
+        <div class="container5">
+            <h2>Creer un article</h2>
+            <form action="/action_page.php">
+                <div class="row">
+                  <div class="col-50">
+                    <label for="tarticle">Titre de l'article</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="tarticle" name="tarticle" placeholder="Votre titre...">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-50">
+                    <label for="iarticle">Image de l'article</label>
+                  </div>
+                  <div class="col-75" style="border: 1px solid #AAA492; padding: 7px;">
+                    <input type="file" id="iarticle" name="iarticle" placeholder="Votre image...">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-50">
+                    <label for="description">Description</label>
+                  </div>
+                  <div class="col-75">
+                    <textarea id="description" name="description" placeholder="Description de votre article..." style="min-height:210px"></textarea>
+                  </div>
+                </div>
+                <br>
+                <div class="row">
+                  <input type="submit" value="Submit">
+                </div>
+            </form>
+
+    </section>
+
+    <section>
+
+        <div class="footer">
+            
+            <ul>
+                <li><h3>© - all right reserved</h3></li>
+                <li><h3>Peace'n'code 2021-2022</h3></li>
+                <li><a href="mentions.html"><h3>Mention legale</h3></a></li>
+            </ul>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
